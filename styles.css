@@ -49,6 +49,33 @@ a {
     gap: 40px;
     background-color: #f5ebe0;
 }
-.destinations {
+#destinations {
     background-color: #f5ebe0;
+}
+#destinations-page {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f5ebe0;
+}
+.top-destanations {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.top-destanations td {
+    padding: 18px;
+    border: solid #d5bdaf;
+}
+.activities {
+    gap: 10px;
+    margin-bottom: 50px;
+    padding: 18px;
+}
+.activities dd {
+    color: rgb(113, 91, 91);
 }
