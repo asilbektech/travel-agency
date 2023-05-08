@@ -1,0 +1,54 @@
+.header {
+    height: 80px;
+}
+.logo {
+    height: 80px;
+}
+.navigation {
+    justify-content: space-around;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #edede9;
+}
+a {
+    text-decoration: none;
+}
+.navigation_links {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    list-style-type: none;
+}
+
+#herosection {
+    max-width: 1440px;
+    padding: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    background-color: #f5ebe0;
+}
+
+.img {
+    height: 500px;
+    width: auto;
+}
+.embed_video {
+    max-width: 1440px;
+    padding: 80px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #f5ebe0;
+}
+.destinations {
+    background-color: #f5ebe0;
+}
