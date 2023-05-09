@@ -14,7 +14,7 @@
                 <ul class="navigation_links">
                     <li><a href="#herosection">Home</a></li>
                     <li><a href="#destinations">Destinations</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#contact-page">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
@@ -325,6 +325,211 @@
                     </div>
                 </dd>
             </dl>
+        </section>
+        <section id="contact-page">
+            <table class="office-locations">
+                <div><h2>Contact Us</h2></div>
+                <br />
+                <div>
+                    <thead>
+                        <th>Office Name</th>
+                        <th>Address</th>
+                        <th>Contact Number</th>
+                        <th>Email Address</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Elegant Travel Agency</td>
+                            <td>725 5th Ave, New York, NY 10022</td>
+                            <td>+1-(855)-878-7700</td>
+                            <td>elegant@travel.com</td>
+                        </tr>
+                        <tr>
+                            <td>Elegant Travel Agency</td>
+                            <td>
+                                2, Islam Karimov Street Block 5, 100027,
+                                Uzbekistan
+                            </td>
+                            <td>+998-71-210-8888</td>
+                            <td>notexist@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </div>
+            </table>
+        </section>
+        <br />
+        <section class="inquiry-form">
+            <h4>INQUIRY FORM</h4>
+            <div>
+                <label for="fullNameInput">Full Name</label>
+                <input
+                    type="text"
+                    id="fullNameInput"
+                    placeholder="Full Name"
+                    name="fullName"
+                    required
+                />
+                <label for="emailInput">Email Address</label>
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="Email Address"
+                    name="emailAddress"
+                    required
+                />
+                <label for="phoneNumberInput">Your Phone Number</label>
+                <input
+                    type="tel"
+                    id="phoneNumberInput"
+                    placeholder="Your Phone Number"
+                    name="phoneNumber"
+                    placeholder="123-456-7890"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required
+                />
+                <div>
+                    <h4>Your Preferred Destination</h4>
+                    <select
+                        name="preferredDestination"
+                        id="preferredDestinationSelect"
+                        required
+                    >
+                        <option value="Maldives">Maldives</option>
+                        <option value="Dubai">Dubai</option>
+                        <option value="Greece">Greece</option>
+                    </select>
+                </div>
+                <div>
+                    <h4>Your Preferred Travel Services</h4>
+                    <label for="flightsInput">Flights</label>
+                    <input
+                        type="checkbox"
+                        id="flightsInput"
+                        name="flights"
+                        value="Flights"
+                    />
+                    <label for="hotelsInput">Hotels</label>
+                    <input
+                        type="checkbox"
+                        id="hotelsInput"
+                        name="hotels"
+                        value="Hotels"
+                    />
+                    <label for="toursInput">Tours</label>
+                    <input
+                        type="checkbox"
+                        id="toursInput"
+                        name="tours"
+                        value="Flights"
+                    />
+                    <label for="carRentalsInput">Car Rentals</label>
+                    <input
+                        type="checkbox"
+                        id="carRentalsInput"
+                        name="carRentals"
+                        value="Car Rentals"
+                    />
+                </div>
+                <div>
+                    <h4>Your Preferred Mode Of Communication</h4>
+                    <label for="emailPreferredRadio">Email</label>
+                    <input
+                        type="radio"
+                        id="emailPreferredRadio"
+                        name="preferredModeOfCommunication"
+                    />
+                    <label for="phonePreferredRadio">Phone</label>
+                    <input
+                        type="radio"
+                        id="phonePreferredRadio"
+                        name="preferredModeOfCommunication"
+                    />
+                    <label for="smsPreferredRadio">SMS</label>
+                    <input
+                        type="radio"
+                        id="smsPreferredRadio"
+                        name="preferredModeOfCommunication"
+                    />
+                </div>
+                <div>
+                    <label for="additionalComments"
+                        >Additional Comments or Questions</label
+                    >
+                    <textarea
+                        name="textArea"
+                        id="additionalComments"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                </div>
+                <br />
+                <div>
+                    <button type="submit" id="submitButton">
+                        Submit The Inquiry Form
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="questions">
+            <h3>Frequently Asked Questions (FAQs)</h3>
+            <dl class="question">
+                <dt>How do I book a trip through your agency?</dt>
+                <dd>
+                    You can book a trip through our agency by visiting our
+                    website, calling our number, or stopping by one of our
+                    office locations.
+                </dd>
+                <br />
+                <dt>What types of trips do you offer?</dt>
+                <dd>
+                    We offer a variety of trips, including group tours,
+                    adventure travel, luxury vacations, and customized
+                    itineraries tailored to your specific interests and
+                    preferences.
+                </dd>
+                <br />
+                <dt>What is your cancellation policy?</dt>
+                <dd>
+                    Our cancellation policy varies depending on the type of trip
+                    you've booked and the specific terms and conditions
+                    associated with your booking. We recommend reviewing these
+                    details carefully before making your reservation and
+                    contacting us directly if you have any questions or
+                    concerns.
+                </dd>
+                <br />
+                <dt>Do you offer travel insurance?</dt>
+                <dd>
+                    Yes, we offer travel insurance as an optional add-on to all
+                    of our trips. This can help provide peace of mind in case of
+                    unforeseen circumstances that may affect your travel plans.
+                </dd>
+                <br />
+                <dt>Can you help me plan a customized itinerary?</dt>
+
+                <dd>
+                    Absolutely! We specialize in customized itineraries tailored
+                    to your specific interests and preferences. Simply contact
+                    us with your travel dates, destination, and interests, and
+                    we'll work with you to create the perfect itinerary for your
+                    trip.
+                </dd>
+            </dl>
+            <div class="contact-us">
+                <h2>Contact Us</h2>
+                <p>Our Phone Number (24/7): +1-(855)-878-7700</p>
+                <p>
+                    Our Email Address: elegant@travel.com (notexist@gmail.com)
+                </p>
+            </div>
+            <div>
+                <strong>Find Us On Google Maps</strong>
+                <br />
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d653.1511828258627!2d-73.97458624257258!3d40.76270705820443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258faf4bfffff%3A0x8673a88f04640d53!2sTrump%20Hotels!5e0!3m2!1sen!2sus!4v1683609248178!5m2!1sen!2sus"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
         </section>
     </body>
 </html>

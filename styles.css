@@ -61,7 +61,6 @@ a {
     background-color: #f5ebe0;
 }
 .top-destanations {
-    text-align: center;
     width: 100%;
     margin-bottom: 70px;
     text-align: center;
@@ -78,4 +77,38 @@ a {
 }
 .activities dd {
     color: rgb(113, 91, 91);
+}
+#contact-page {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f5ebe0;
+}
+
+.office-locations td {
+    padding: 18px;
+    border: solid #d5bdaf;
+}
+.inquiry-form {
+    background-color: #d5bdaf;
+    text-align: center;
+}
+#questions {
+    background-color: #d5bdaf;
+}
+.question {
+    background-color: #d5bdaf;
+}
+
+.contact-us {
+    background-color: #d6ccc2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
